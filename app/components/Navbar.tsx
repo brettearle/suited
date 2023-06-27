@@ -1,4 +1,4 @@
-export default function Navbar() {
+export default function Navbar(): JSX.Element {
   return (
     <nav className='flex items-center justify-between p-4'>
       <h1 className='text-2xl font-bold'>Suited</h1>
@@ -9,7 +9,7 @@ export default function Navbar() {
         <a href='/rules' className='text-xl font-bold'>
           Rules
         </a>
-        <a href='/rules' className='text-xl font-bold'>
+        <a href='/powers' className='text-xl font-bold'>
           Powers
         </a>
       </ul>

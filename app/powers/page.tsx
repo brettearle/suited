@@ -1,3 +1,16 @@
+export default function Powers(): JSX.Element {
+  return (
+    <main className='flex min-h-screen flex-col items-center p-24'>
+      <h1 className='text-4xl font-bold'>Powers</h1>
+      <section className='flex z-10 w-full max-w-5xl items-center justify-center font-mono text-sm lg:flex'>
+        <h2 className='text-2xl font-bold m-4'>Build A Power</h2>
+      </section>
+      <section className='flex z-10 w-full max-w-5xl items-center justify-center font-mono text-sm lg:flex'>
+        <h2 className='text-2xl font-bold m-4'>Example Powers</h2>
+      </section>
+    </main>
+  )
+}
 // Transcendence powers - 5xp plus build cost to a minimum of 5xp.
 // Spend a point and flip. Pass is power triggers.
 
