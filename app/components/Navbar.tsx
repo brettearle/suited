@@ -9,6 +9,9 @@ export default function Navbar() {
         <a href='/rules' className='text-xl font-bold'>
           Rules
         </a>
+        <a href='/rules' className='text-xl font-bold'>
+          Powers
+        </a>
       </ul>
     </nav>
   )
