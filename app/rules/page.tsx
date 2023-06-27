@@ -6,10 +6,10 @@ export default function Rules(): JSX.Element {
         <h2 className='text-2xl font-bold m-4'>Introduction</h2>
       </section>
       <div className='max-w-3xl rounded-lg bg-teal p-8'>
-        <h1 className='text-4xl font-bold mb-6 text-white'>Basic System</h1>
+        <h1 className='text-4xl font-bold mb-6 text-white'>The System</h1>
         <div className='bg-gunmetal rounded-lg p-6 mb-8'>
           <section>
-            <h2 className='text-2xl font-bold mb-2'>Deck</h2>
+            <h2 className='text-2xl font-bold mb-2'>The Deck</h2>
             <p>
               For this system, you will need a standard 52-card deck. In this
               deck, the Ace is considered low and equals 1.
@@ -21,18 +21,18 @@ export default function Rules(): JSX.Element {
             <h2 className='text-2xl font-bold mb-2'>Mechanics</h2>
             <ul>
               <li className='mt-4'>
-                <strong>Contested Rolls:</strong> When two characters are in
-                direct opposition, such as in a competition or conflict, each
-                player flips a card from the deck. The player with the higher
-                value wins the contest. In the case of a tie, the player who
-                initiated the contest wins.
+                <h4 className=' text-1xl font-bold mb-2'>Contested Flips:</h4>{' '}
+                When two characters are in direct opposition, such as in a
+                competition or conflict, each player flips a card from the deck.
+                The player with the higher value wins the contest. In the case
+                of a tie, the player who initiated the contest wins.
               </li>
               <li className='mt-4'>
-                <strong>Target Rolls:</strong> For tasks that involve overcoming
-                a set difficulty or target number, the player flips a card and
-                compares it to the Target Number. If the value on the card is
-                equal to or higher than the Target Number, the task is
-                successful.
+                <h4 className=' text-1xl font-bold mb-2'>Target Flips:</h4> For
+                tasks that involve overcoming a set difficulty or target number,
+                the player flips a card and compares it to the Target Number. If
+                the value on the card is equal to or higher than the Target
+                Number, the task is successful.
               </li>
             </ul>
           </section>
@@ -47,15 +47,20 @@ export default function Rules(): JSX.Element {
             </p>
             <ul>
               <li className='mt-4'>
-                <strong>Positive Modifiers (Buffs):</strong> When a positive
-                modifier is in effect, the player adds an additional card to
-                their flip and gets to choose which card they use for the
-                outcome.
+                <h4 className=' text-1xl font-bold mb-2'>
+                  Positive Modifiers (Buffs):
+                </h4>
+                When a positive modifier is in effect, the player adds an
+                additional card to their flip and gets to choose which card they
+                use for the outcome.
               </li>
               <li className='mt-4'>
-                <strong>Negative Modifiers (Debuffs):</strong> When a negative
-                modifier is in play, the player adds an extra card to their flip
-                and must pick the lowest value card to determine the outcome.
+                <h4 className=' text-1xl font-bold mb-2'>
+                  Negative Modifiers (Debuffs):
+                </h4>
+                When a negative modifier is in play, the player adds an extra
+                card to their flip and must pick the lowest value card to
+                determine the outcome.
               </li>
             </ul>
           </section>
