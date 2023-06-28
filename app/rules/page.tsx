@@ -1,12 +1,14 @@
+import { VERSION } from '../appConfig/CONSTANTS'
+
 export default function Rules(): JSX.Element {
   return (
-    <main className='flex min-h-screen flex-col items-center p-24'>
-      <h1 className='text-4xl font-bold'>The Rule Book</h1>
-      <section className='flex z-10 w-full max-w-5xl items-center justify-center font-mono text-sm lg:flex'>
-        <h2 className='text-2xl font-bold m-4'>Introduction</h2>
-      </section>
-      <div className='max-w-3xl rounded-lg bg-teal p-8'>
-        <h1 className='text-4xl font-bold mb-6 text-white'>The System</h1>
+    <main className='flex min-h-screen flex-col items-center p-16 pt-10'>
+      <h1 className='text-4xl font-bold'>The Rule Book </h1>
+      <p>{VERSION}</p>
+      <div className='max-w-3xl rounded-lg bg-teal p-8 mt-4'>
+        <h2 className='text-3xl font-bold mb-6 text-white text-center'>
+          The System
+        </h2>
         <div className='bg-gunmetal rounded-lg p-6 mb-8'>
           <section>
             <h2 className='text-2xl font-bold mb-2'>The Deck</h2>
@@ -14,6 +16,14 @@ export default function Rules(): JSX.Element {
               For this system, you will need a standard 52-card deck. In this
               deck, the Ace is considered low and equals 1.
             </p>
+            <h4 className=' text-1xl font-bold mb-2 mt-4'>Card Values</h4>
+            <ul className='list-disc list-inside'>
+              <li className='mt-4'>Ace = 1</li>
+              <li className='mt-4'>Numbered cards = Number on card</li>
+              <li className='mt-4'>Jack = 11</li>
+              <li className='mt-4'>Queen = 12</li>
+              <li className='mt-4'>King = 13</li>
+            </ul>
           </section>
         </div>
         <div className='bg-gunmetal rounded-lg p-6 mb-8'>
