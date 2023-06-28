@@ -115,6 +115,74 @@ export default function Rules(): JSX.Element {
             </p>
           </section>
         </div>
+        <div className='bg-gunmetal rounded-lg p-6 mb-8'>
+          <section>
+            <h2 className='text-2xl font-bold mb-2'>Combat and Health</h2>
+            <p>In combat, the following mechanics apply:</p>
+
+            <section>
+              <h3 className='text-xl font-bold mt-4'>Initiative</h3>
+              <p>
+                Flip your initiative skill to determine the order of action. The
+                player with the highest card value goes first. This initiative
+                order remains the same for the entire combat encounter, setting
+                the rhythm and flow of battle.
+              </p>
+            </section>
+
+            <section>
+              <h3 className='text-xl font-bold mt-4'>Turns</h3>
+              <p>
+                Combatants take turns to act, showcasing their skills and
+                strategies. Each turn is comprised of two components:
+              </p>
+              <ul className='list-disc ml-6 mt-2'>
+                <li>
+                  Instant Action: Something that can be done in a very short
+                  time or a power with a time taken equal to instant. These
+                  quick actions allow characters to react swiftly to the
+                  changing tides of battle.
+                </li>
+                <li>
+                  Basic Action: Choose from a range of options such as Move,
+                  Attack, Operate, Skill Check, or Power. These actions shape
+                  the narrative and outcome of combat, influencing the destiny
+                  of your character.
+                </li>
+              </ul>
+            </section>
+
+            <section>
+              <h3 className='text-xl font-bold mt-4'>Attack Action</h3>
+              <p>
+                Engage in intense combat with the attack action. Take aim at
+                your target and flip against their defense skill, which includes
+                block, parry, or dodge maneuvers. If your flip value matches or
+                exceeds the target's defense value, your attack lands true,
+                striking your foe with precision.
+              </p>
+              <p>
+                Once the attack connects, flip once more to determine the damage
+                inflicted. The result of this flip holds the key to the severity
+                of the wound inflicted upon your adversary:
+              </p>
+              <ul className='list-disc ml-6 mt-2'>
+                <li>
+                  Ace to 5: Inflicts 1 wound, leaving a mark on your opponent's
+                  resilience.
+                </li>
+                <li>
+                  6 to 10: Inflicts 2 wounds, a substantial blow that shakes the
+                  very foundations of their strength.
+                </li>
+                <li>
+                  11 and above: Inflicts 3 wounds, a devastating strike that
+                  sends shockwaves through their entire being.
+                </li>
+              </ul>
+            </section>
+          </section>
+        </div>
       </div>
     </main>
   )
