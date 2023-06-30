@@ -7,6 +7,10 @@ export default function Powers(): JSX.Element {
         <h4 className='text-2xl font-bold m-4'>
           Step 0: Create a small story paragraph explaining the effect
         </h4>
+        <h4 className='text-2xl font-bold m-4'>
+          Step 1: Pick a range for the power to be used at. Either touch, short,
+          or long.
+        </h4>
       </section>
       <section className='flex z-10 w-full max-w-5xl items-center justify-center font-mono text-sm lg:flex'>
         <h2 className='text-2xl font-bold m-4'>Example Powers</h2>
